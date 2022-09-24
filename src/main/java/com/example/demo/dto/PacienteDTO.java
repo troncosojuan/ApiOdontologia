@@ -2,12 +2,12 @@ package com.example.demo.dto;
 
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 
 @Data
 public class PacienteDTO {
-
-    //ID, Apellido, Nombre, Email, DNI, Fecha ingreso
 
     private Long id;
     private String apellido;
@@ -16,4 +16,6 @@ public class PacienteDTO {
     private Integer dni;
     private String fechaIngreso;
     private DomicilioDTO domicilio;
+
 }
+

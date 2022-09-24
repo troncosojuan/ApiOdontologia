@@ -1,4 +1,4 @@
-package com.example.demo.servicio;
+package com.example.demo.service;
 
 
 import com.example.demo.dto.PacienteDTO;
@@ -6,7 +6,7 @@ import com.example.demo.entity.PacienteEntity;
 import com.example.demo.exception.ParamNotFound;
 import com.example.demo.mapper.PacienteMap;
 import com.example.demo.repository.PacienteRepository;
-import com.example.demo.servicio.serviceInterface.PacienteService;
+import com.example.demo.service.serviceInterface.PacienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

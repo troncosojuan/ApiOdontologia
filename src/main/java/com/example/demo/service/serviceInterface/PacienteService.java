@@ -1,4 +1,4 @@
-package com.example.demo.servicio.serviceInterface;
+package com.example.demo.service.serviceInterface;
 
 
 import com.example.demo.dto.PacienteDTO;
@@ -14,9 +14,5 @@ public interface PacienteService {
     void borrarPaciente(Long id);
 
     List<PacienteDTO> listarTodosLosPacientes();
-
-
-
-
 
 }
